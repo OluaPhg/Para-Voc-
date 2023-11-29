@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'roma';
+    src: url(Romantica.otf);
+
+}
+
+@font-face {
+    font-family: 'amor';
+    src: url(Amor.ttf);
+}
+
+@font-face {
+    font-family: 'amore';
+    src: url(Amore.otf);
+}
+
+
+
+
+body {
+    color: black;
+    font-size: xx-large;
+    position: relative;
+    margin: 0;
+    overflow: visible;
+
+
+}
+
+html {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.sec {
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(041.png);
+    margin: 0;
+    padding: 0;
+}
+
+
+body::-webkit-scrollbar {
+    width: 9px;
+
+}
+
+body::-webkit-scrollbar-track {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    z-index: -1;
+    background-image: url(backgroud/005.jpeg);
+    background-color: #ffe4e1;
+    transform-origin: center;
+
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(110, 189, 189);
+    border-radius: 100px;
+
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(33, 121, 121);
+}
+
+body .fut:hover,
+body .sobre:hover,
+body .cont:hover {
+    color: rgb(255, 0, 170);
+    text-shadow: 10px 10px 6px rgb(92, 7, 73);
+}
+
+body .gata:hover,
+body .nois:hover,
+body .gata3:hover {
+    color: #8d1766;
+    box-shadow: 8px 8px 10px rgb(92, 7, 73, 1)
+}
+
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 20px;
+}
+
+A {
+    color: black;
+    text-decoration: none;
+}
+
+img {
+    width: 250opx;
+    height: 250px;
+    border-radius: 15%;
+    border: 3px solid #8d1766;
+    box-shadow: 8px 8px 10px rgba(238, 101, 192, 1)
+}
+
+
+
+.nois {
+    position: absolute;
+    top: 140px;
+    left: 41.5%;
+    transform: rotate(-90deg);
+    width: 200px;
+    height: 350px;
+
+}
+
+
+
+.fut {
+    font-family: 'amore';
+    position: absolute;
+    top: 150px;
+    left: 38.5%;
+    font-size: 43px;
+    color: rgb(141, 23, 102);
+    text-shadow: 5px 5px 10px rgb(70, 25, 67, 0.6);
+
+}
+
+.sobre {
+    font-family: 'amore';
+    position: absolute;
+    top: 60px;
+    left: 3%;
+    font-size: 43px;
+    color: rgb(141, 23, 102);
+    text-shadow: 5px 5px 10px rgb(70, 25, 67, 0.6);
+}
+
+.cont {
+    font-family: 'amore';
+    position: absolute;
+    top: 60px;
+    left: 79.3%;
+    font-size: 43px;
+    color: rgb(141, 23, 102);
+    text-shadow: 5px 5px 10px rgb(70, 25, 67, 0.6);
+}
+
+.histo {
+    font-family: 'amore';
+    position: absolute;
+    top: 400px;
+    left: 14%;
+    font-size: 43px;
+    color: rgb(141, 23, 102);
+    text-shadow: 5px 5px 10px rgb(70, 25, 67, 0.6);
+}
+
+.his {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    top: 460px;
+    left: 17%;
+
+}
+
+
+
+.gata {
+    position: absolute;
+    top: 120px;
+    left: 5%;
+
+}
+
+.gata3 {
+    position: absolute;
+    top: 120px;
+    left: 85%;
+}
+
+
+.um {
+    position: absolute;
+    top: 490px;
+    left: 37%;
+
+}
+
+.dois {
+    position: absolute;
+    top: 560px;
+    left: 28%;
+
+}
+
+.clique {
+    font-family: 'amor';
+    position: absolute;
+    top: 10px;
+    left: 24%;
+    color: rgb(231, 30, 164);
+    text-shadow: 5px 5px 6px rgb(70, 25, 67, 0.6);
+}
+
+
+h1 {
+    font-family: 'amor';
+    font-size: xx-large;
+    font-style: italic;
+
+}
+
+h2 {
+    font-family: 'amore';
+    font-size: x-large;
+    font-style: italic;
+
+}
+
+.como {
+    font-family: 'amore';
+    position: absolute;
+    top: 600px;
+}
+
+.futu {
+    font-family: 'amore';
+    position: absolute;
+    top: 870px;
+}
+
+.conta {
+    font-family: 'amore';
+    position: absolute;
+    top: 1150px;
+}
+
+.te1 {
+    font-size: 40px;
+    color: whitesmoke;
+    text-shadow: 2px 4px 15px rgb(92, 7, 73);
+}
+
+.te2 {
+    font-size: 40px;
+    color: whitesmoke;
+    text-shadow: 2px 4px 15px #810056;
+}
